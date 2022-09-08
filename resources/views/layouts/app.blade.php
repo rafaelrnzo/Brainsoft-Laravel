@@ -32,7 +32,7 @@
                 <div class="container pl-20 pt-2 pb-2 flex gap-6 justify-evenly">
                     <div class="navbar-icon">
                         <a href="{{ url('/') }}">
-                            <img src="./connexsoftlogo.png" alt="connexsoft logo" class="h-14 w-full">
+                            <img src="./images/Brainsoft.png" alt="connexsoft logo" class="h-28 w-28">
                         </a>
                     </div>
 
@@ -69,8 +69,8 @@
                                 <img src="./images/dani.png" alt="profile-image" class="h-8">
                             </div>
                             <div class="profile-username flex items-center">
-                                <p class="font-bold cursor-pointer text-slate-500"><a
-                                        v-pre>{{ Auth::user()->username }}</a></p>
+                                <p class="font-bold cursor-pointer text-slate-500">
+                                    <a v-pre>{{ Auth::user()->username }}</a></p>
                             </div>
                         </div>
                         <div class="ask bg-cyan-500 pt-[3.9px] pb-[3.9px] pl-2 pr-2 rounded-2xl">
@@ -98,8 +98,6 @@
                         </div>
 
                     </div>
-
-
                 </div>
 
             </nav>

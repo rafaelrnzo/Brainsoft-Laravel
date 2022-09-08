@@ -22,21 +22,15 @@
 </head>
 
 <body>
-    <div class="login-container flex justify-center mt-12">
-        <div
-            class="login-body w-[400px] max-h-[600px] lg:pb-0  lg:w-[800px] lg:h-[550px] border-[1.2px] border-slate-300 rounded-md overflow-hidden">
-            <div class="login-inner flex w-full h-full">
-                <div
-                    class="login-ilustration bg-gradient-to-r from-sky-500 to-blue-500 h-full w-1/2 invisible lg:visible">
-                    <div class="ilustration-logo flex justify-center mt-6 pointer-events-none select-none">
-                        <img src="connexsoftlogo.png" alt="connexsoftlogo" class="h-16 pointer-events-none select-none">
-                    </div>
+    <div class="login-container flex justify-center pt-[7rem]">
+        <div class="login-body w-[400px] max-h-[600px] lg:pb-0  lg:w-[800px] lg:h-[550px] border-[1.2px] border-slate-300 rounded-md overflow-hidden">
+            <div class="login-inner flex w-full h-full ">
+                <div class="pt-[2rem] login-ilustration bg-gradient-to-r from-white to-white h-full w-1/2 invisible lg:visible">
                     <div class="ilustration-vector mt-10 pointer-events-none select-none">
-                        <img src="/images/connexsoftilu.png" alt="ilustration" class="pointer-events-none select-none">
+                        <img src="/images/brainsoftforum.png" alt="ilustration" class="pointer-events-none select-none">
                     </div>
                 </div>
-                <div
-                    class="login-input  pt-10 pr-12 pl-12 bg-gradient-to-r h-full pb-[40px] from-slate-100 to-slate-200 w-full  lg:w-1/2 lg:h-full">
+                <div class="login-input  pt-10 pr-12 pl-12 bg-gradient-to-r h-full pb-[40px] from-slate-100 to-slate-200 w-full  lg:w-1/2 lg:h-full">
                     <div class="ilustration-mobile justify-start block lg:hidden pointer-events-none select-none">
                         <img src="connexsoftlogo.png" alt="connexsoftlogo"
                             class="h-16 pointer-events-none select-none justify-start">
@@ -117,15 +111,9 @@
                                 <a href="/register"
                                     class="bg-gradient-to-r from-cyan-400 to-green-600 text-white pt-2 pb-2 pr-8 pl-8 rounded-md">Register</a>
                             </div>
-
-
                         </div>
-
                     </div>
-
-
                 </div>
-
             </div>
         </div>
     </div>
